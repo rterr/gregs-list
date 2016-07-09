@@ -37,18 +37,34 @@ header {
 }
 
 .pagination{
-	
+	margin:50px 0px 50px 0px;
+}
+
+.pagination > span{
+	padding:10px 20px 10px 20px;
+	border:1px solid lightgray;
+}
+
+.pagination >span:first-child{
+	border-width: 1px 0px 1px 1px;
+	border-radius:5px 0px 0px 5px;
+}
+
+.pagination >span:last-child{
+	border-width: 1px 1px 1px 0px;
+	border-radius:0px 5px 5px 0px;
 }
 
 .results{
 	list-style:none;
 	line-height:2em;
-	padding-left:0px;
+	padding:0px;
 }
 
 .listing > span{
 margin-right:6px;
 }
+
 
 .desc a{
 	text-decoration:none;
