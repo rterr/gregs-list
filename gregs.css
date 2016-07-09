@@ -1,8 +1,8 @@
 body{
 	box-sizing:border-box;
-	font:1.25em sans-serif;
+	font:14pt sans-serif;
 }
-nav{
+.topbar{
 	position:fixed;
 	height:50px;
 	width:100%;
@@ -14,13 +14,13 @@ nav{
 
 header {
 	display:inline-block;
-	padding-left:10px;
+	padding: 14px 0px 0px 14px;
 }
 
 .navlinks{
 	display:inline-block;
 	float:right;
-	padding-right:10px;
+	padding: 14px 14px 0px 0px;
 }
 
 .navlinks a{
@@ -29,23 +29,30 @@ header {
 	margin-left:10px;
 }
 
-.navlinks a:hover{
-	color:white;
-
-}
-
 .bound{
 	max-width:1000px;
 	margin-top:80px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.pagination{
+	
 }
 
 .results{
 	list-style:none;
-
+	line-height:2em;
+	padding-left:0px;
 }
 
-.listing{
+.listing > span{
+margin-right:6px;
+}
 
+.desc a{
+	text-decoration:none;
+	font-weight:bold;
 }
 
 .date, .location
