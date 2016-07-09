@@ -1,0 +1,57 @@
+body{
+	box-sizing:border-box;
+	font:1.25em sans-serif;
+}
+nav{
+	position:fixed;
+	height:50px;
+	width:100%;
+	top:0px;
+	background-color:lightgray;
+	vertical-align:middle;
+	border-bottom:1px solid gray;
+}
+
+header {
+	display:inline-block;
+	padding-left:10px;
+}
+
+.navlinks{
+	display:inline-block;
+	float:right;
+	padding-right:10px;
+}
+
+.navlinks a{
+	text-decoration:none;
+	color:purple;
+	margin-left:10px;
+}
+
+.navlinks a:hover{
+	color:white;
+
+}
+
+.bound{
+	max-width:1000px;
+	margin-top:80px;
+}
+
+.results{
+	list-style:none;
+
+}
+
+.listing{
+
+}
+
+.date, .location
+{color:gray;}
+
+.fav
+{color:gray;}
+.fav:hover
+{color:gold;}
